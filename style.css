@@ -1,0 +1,226 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.header{
+	background:#3B5998;
+	overflow:hidden;
+}
+
+.container{
+	width:65%;
+	margin:0 auto;
+}
+
+.logo-area{
+	float:left;
+	width:30%;
+}
+
+.logo-area img{
+	margin-top:40px;
+}
+
+.login-area{
+	width:70%;
+	float:left;
+	color:#fff;
+	padding-top:8px;
+}
+
+.login-area form{
+	float:right;
+}
+
+.login-area label,
+.login-area input{
+	display:block;
+}
+
+.login-area .email,
+.login-area .password,
+.login-area .login{
+	float:left;
+	padding-right:10px;
+}
+
+.login-area label{
+	font-size:18px;
+	margin-bottom:4px;
+}
+
+.login-area input[type="text"],
+.login-area input[type="password"]{
+	border:1px solid black;
+	font-size:14px;
+	font-weight:400;
+	padding:3px 5px;
+}
+.login-area .password a{
+	color:#8DA7C3;
+	text-decoration:none;
+	font-size:15px;
+}
+.login-area .password a:hover{
+	text-decoration:underline;
+}
+
+
+.login-area .login{
+	margin-right:0;
+}
+
+.login-area .login input[type="submit"]{
+	margin-top:25px;
+	border-color:#2C4A81;
+	background-color:#4267B2;
+	color:white;
+	padding:3px 8px;
+}
+
+.signup-area{
+	padding:20px 0px;
+	width:100%;
+	height:100vh;
+	background: linear-gradient(#fff,#D5D9E9)
+}
+.left-area{
+	float:left;
+	width:55%;
+}
+
+.right-area{
+	float:left;
+	width:45%;
+}
+.left-area p{
+	font-size:20px;
+	font-weight:600;
+	color:#22405F;
+	width:85%;
+}
+.left-area img{
+	width:100%;
+}
+
+.right-area h2{
+	font-size:33px;
+	margin-top:2px;
+	color:#333;
+	margin-bottom:0px;
+}
+.it{
+	margin-top:8px;
+	color:#333;
+}
+
+.right-area input[type="text"],
+.right-area input[type="password"]{
+	width:100%;
+	box-sizing:border-box;
+	border-radius:5px;
+	padding:7px 5px;
+	border:1px solid #C5CEDD;
+	margin: 5px 0px;
+}
+
+.first-name{
+	width:48%;
+	float:left;
+	margin-right:4%;
+}
+.surname-name{
+	width:48%;
+	float:left;
+}
+.birthday h4{
+	margin-top:8px;
+	margin-bottom:5px;
+	color:#A09AAE;
+}
+.birth-date select{
+	padding:2px;
+	border:1px solid #CFD3D9;
+}
+
+.gender h4{
+	color:#A09AAE;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+.btn input[type="submit"]{
+	border:1px solid green;
+	width:45%;
+	height:6%;
+	background:#558D44;
+	border-radius:6px;
+	padding:6px 30px;
+	color:white;
+	font-size:18px;
+}
+
+.btn input[type="submit"]:hover{
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+}
+
+.text-box a{
+	text-decoration:none;
+}
+.text-box a:hover{
+	text-decoration:underline;
+}
+.Create a{
+	text-decoration:none;
+}
+.Create p a:hover{
+	text-decoration:underline;
+}
+
+.footer-area{
+	padding: 30px 0px;
+}
+
+.footer-area ul{
+	margin: 0;
+	padding: 0;
+
+}
+.footer-area ul li{
+	display: inline;
+}
+
+.footer-area ul li a{
+	color:#385898;
+	text-decoration: none;
+	font-size: 14px;
+}
+.footer-area ul li.active a{
+	color:#8E8291;
+}
+.footer-top ul li{
+	margin-right: 8px;
+}
+.footer-middle ul li{
+	margin-right: 18px;
+}
+
+.footer-top ul li:last-child a {
+	border: 1px solid #8E8291;
+	padding: 4px;
+}
+
+.footer-area hr{
+	border: 0px;
+	border-bottom: 1px solid #8E8291;
+}
+
+.footer-end p{
+	font-size: 13px;
+	color: #8E8291;
+	text-decoration: none;
+}
+

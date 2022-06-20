@@ -1,0 +1,60 @@
+
+@media screen and (max-width:980px){
+	.logo-area{
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	
+	.login-area{
+		float:none;
+		width:500px;
+		margin:20px 100px;
+	}
+}
+
+
+@media screen and (max-width:768px){
+	.logo-area{
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	
+	.login-area{
+		float:none;
+		width:500px;
+		margin:20px auto;
+	}
+	
+	.left-area{
+		width:100%;
+		float:none;
+	}
+	.right-area{
+		width:100%;
+		float:none;
+	}
+	.right-area .btn input[type="submit"]{
+		padding:10px 40px;
+		width:45%;
+		height:10%;
+		
+	}
+	
+}
+
+@media screen and (max-width:480px){
+	.logo-area{
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	
+	.login-area{
+		float:none;
+		width:20%;
+		margin-right:43px;
+	}
+}
+
